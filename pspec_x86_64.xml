@@ -1,6 +1,6 @@
 <PISI>
     <Source>
-        <Name>stem</Name>
+        <Name>python-stem</Name>
         <Packager>
             <Name>Devil505</Name>
             <Email>devil505@tuta.io</Email>
@@ -13,7 +13,7 @@
         <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
     </Source>
     <Package>
-        <Name>stem</Name>
+        <Name>python-stem</Name>
         <Summary xml:lang="en">Python controller library for Tor</Summary>
         <Description xml:lang="en">Stem is a Python controller library for Tor. With it you can use Tor control protocol to script against the Tor process, or build things such as Nyx.
 </Description>
@@ -124,11 +124,13 @@
     </Package>
     <History>
         <Update release="1">
-            <Date>2018-08-15</Date>
+            <Date>2018-08-25</Date>
             <Version>1.6.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Devil505</Name>
-            <Email>devil505@tuta.io</Email>
+             <Name>Devil505</Name>
+             <Email>devil505@tuta.io</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Update>
     </History>
 </PISI>
